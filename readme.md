@@ -1,6 +1,6 @@
-ESP8266 dual DC switch. 
+ESP8266 Dual DC Switch
 
-I’m using an ESP07 module for external antenna. support and the TC4427 gate drive IC to drive the mosfets hard using input voltage (up to 18v). Any D-PAK N-fet should work, just watch Vgs vs Ids.
+WiFi connected switch designed for moderate current low voltage DC loads using the Espriff ESP8266 SoC module. Iâ€™m using an ESP07 module for external antenna. support and the TC4427 gate drive IC to drive the mosfets hard using input voltage (up to 18v). Any D-PAK N-fet should work, just watch Vgs vs Ids.
 
 Current BOM:
 
