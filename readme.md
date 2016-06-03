@@ -4,6 +4,10 @@ WiFi connected switch designed for moderate current low voltage DC loads using t
 
 Bare PCB can be ordered from OSH Park: <https://www.oshpark.com/projects/4C8Vl9AT>
 
+PROG Header: On the back side of the PCB, there are pads for 0603 size pull-up resistors (to the 3v3 rail) near the "PROG" header. Once loaded with OTA software, the ESP firmware can be configured to use these ports as either an I2C or Dallas One-Wire port. A small solder jumper is available to connect / disconnect the pull-ups from 3v3 if nessecary to reflash the ESP via serial port.
+
+PRG Header: One pad is ESP GPIO0, the other pulled down to gound via a 1k resistor. Jumper these pads prior to power-up to force ESP into serial port flash mode. 
+
 Current BOM:
 
 ESP8266 ESP07 Module
